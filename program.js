@@ -15,13 +15,22 @@ switch (a){
         break;
     }
 }
-var arr=[5,6,7,8,9];
-for (var i in arr){
-//     console.log(i)
-    console.log(arr[i]);
+while(true){
+    let b = prompt();
+    console.log(b);
+    if (b==='q'){
+        break;
+    }
+
 }
-let j=0;
-while( j <10){
- console.log(j);
-j++;
-}
+// var arr=[5,6,7,8,9];
+// for (var i in arr){
+// //     console.log(i)
+//     console.log(arr[i]);
+
+// }
+// let j=0;
+// while( j <10){
+//  console.log(j);
+// j++;
+// }
