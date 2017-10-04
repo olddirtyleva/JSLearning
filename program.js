@@ -1,36 +1,20 @@
-console.log("Hello world");
-let a = 'sdf';
-console.log("value a=%f some %f other",5,6);
-if (a==5)
-    console.log("value a=%f some other",5);
-    console.log("a="+6);
-
-switch (a){
-    case 'sdf':{
-        console.log("Nope");
-        break;
+alert('Ваша задача потопить трехпалубный корабль противника на поле из семи клеток ') ;
+var kolvopalub = 0;
+var inputcounter = 0;
+while (kolvopalub<3)
+{
+    var pole = prompt('введите номер поля от 1 до 7');
+    if ((pole==3)|| (pole==4)||(pole==5))
+    {kolvopalub++;
+     alert ('УРА! Вы попали.\nОсталось потопить '+(3-kolvopalub)+' палубы корабля');
+     inputcounter++;
     }
-    case 'a':{
-        console.log("Nope1");
-        break;
+    else 
+    {alert('Вы не попали, введите номер другого поля');    
+    inputcounter++;
     }
 }
-while(true){
-    let b = prompt();
-    console.log(b);
-    if (b==='q'){
-        break;
-    }
+alert ('Поздравляю!!!\nВы потопили корабль противника за '+inputcounter+' удара');
 
-}
-// var arr=[5,6,7,8,9];
-// for (var i in arr){
-// //     console.log(i)
-//     console.log(arr[i]);
 
-// }
-// let j=0;
-// while( j <10){
-//  console.log(j);
-// j++;
-// }
+
